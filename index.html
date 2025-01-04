@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Open Source Zitat Website">
+    <title>Open Source Zitat</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(45deg, #4b0082, #000000);
+            animation: shimmer 5s infinite alternate;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        @keyframes shimmer {
+            0% {
+                background: linear-gradient(45deg, #4b0082, #000000);
+            }
+
+            100% {
+                background: linear-gradient(45deg, #8a2be2, #000000);
+            }
+        }
+
+        .quote {
+            font-size: 2rem;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+            max-width: 80%;
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quote">
+        „Open source is a development methodology; free software is a social movement.“
+    </div>
+</body>
+
+</html>
